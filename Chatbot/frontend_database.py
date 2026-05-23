@@ -1,5 +1,5 @@
 import streamlit as st
-from database_backend import chatbot, retrieve_all_threads
+from Backend_Database import chatbot, retrieve_all_threads
 from langchain_core.messages import HumanMessage
 import uuid
 
